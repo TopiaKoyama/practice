@@ -1,4 +1,4 @@
-public class BookComputer extends TangibleAsset {
+public class Computer extends TangibleAsset {
 	private String makerName;
 
 	public Book(String name, int price, String color, String makerName) {
