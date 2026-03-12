@@ -1,7 +1,7 @@
 public abstract class TangibleAsset {
-  private String name;
-  private int price;
-  private String color;
+  private String name;    // 有形資産の名称
+  private int price;      // 有形資産の価格
+  private String color;   // 有形資産の色
 
   public TangibleAsset(String name, int price, String color) {
     this.name = name;
